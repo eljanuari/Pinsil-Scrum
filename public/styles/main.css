@@ -229,6 +229,11 @@ li.bespoke-bullet-inactive {
 .emphatic .bespoke-slide {
   background: #eaeaea;
 }
+
+.reveal,
+.reveal .bespoke-slide{
+	background: #eaeaea;
+}
 pre {
   padding: 26px !important;
   -webkit-border-radius: 8px;
@@ -267,7 +272,7 @@ li {
   margin-bottom: 12px;
 }
 p {
-  margin: 0 10% 20px;
+  margin: 0 100px 12px;
   line-height: 22px;
 }
 a {

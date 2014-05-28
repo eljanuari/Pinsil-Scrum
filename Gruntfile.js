@@ -1,10 +1,10 @@
-// Generated on 2014-05-26 using generator-bespoke v0.8.0
+// Generated on 2014-05-21 using generator-bespoke v0.8.0
 
 module.exports = function(grunt) {
 
   var config = {
     clean: {
-      public: 'public/**/*'
+      public: 'public/Presentasi/**/*'
     },
     jade: {
       src: {
@@ -12,7 +12,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'src/',
           src: '**/*.jade',
-          dest: 'public/',
+          dest: 'public/Presentasi/',
           ext: '.html'
         }],
         options: {
@@ -26,7 +26,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'src/styles/',
           src: '**/*.styl',
-          dest: 'public/styles/',
+          dest: 'public/Presentasi/styles/',
           ext: '.css'
         }],
         options: {
@@ -40,7 +40,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'src/scripts/',
           src: '**/*.coffee',
-          dest: 'public/scripts/',
+          dest: 'public/Presentasi/scripts/',
           ext: '.js'
         }]
       }
@@ -56,7 +56,7 @@ module.exports = function(grunt) {
             '!<%= stylus.src.files[0].src %>',
             '!<%= coffee.src.files[0].src %>'
           ],
-          dest: 'public/'
+          dest: 'public/Presentasi/'
         }]
       }
     },
@@ -143,13 +143,13 @@ module.exports = function(grunt) {
       }
     },
     useminPrepare: {
-      html: 'public/index.html',
+      html: 'public/Presentasi/index.html',
       options: {
         dest: 'public'
       }
     },
     usemin: {
-      html: 'public/index.html'
+      html: 'public/Presentasi/index.html'
     },
     'gh-pages': {
       public: {
