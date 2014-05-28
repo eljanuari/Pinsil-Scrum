@@ -20,7 +20,7 @@ article {
   -moz-transition: background 0.6s ease;
   -o-transition: background 0.6s ease;
   -ms-transition: background 0.6s ease;
-  transition: background 0.6s ease;
+  transition: background 0.2s ease;
   display: none;
 }
 article.bespoke-parent {
@@ -227,12 +227,12 @@ li.bespoke-bullet-inactive {
 }
 .emphatic,
 .emphatic .bespoke-slide {
-  background: #eaeaea;
+  background: #ac00f3;
 }
 
 .reveal,
 .reveal .bespoke-slide{
-	background: #eaeaea;
+	background: #ac00f3;
 }
 pre {
   padding: 26px !important;
@@ -242,13 +242,14 @@ pre {
 body {
   font-family: helvetica, arial, sans-serif;
   font-size: 18px;
-  color: #404040;
+  color: #09fffc;
 }
 h1 {
   font-size: 72px;
   line-height: 82px;
   letter-spacing: -2px;
   margin-bottom: 16px;
+  color: #00000;
 }
 h2 {
   font-size: 42px;
@@ -259,7 +260,7 @@ h3 {
   font-size: 24px;
   font-weight: normal;
   margin-bottom: 24px;
-  color: #606060;
+  color: #09fffc;
 }
 hr {
   visibility: hidden;
@@ -274,6 +275,7 @@ li {
 p {
   margin: 0 100px 12px;
   line-height: 22px;
+  color: #00000;
 }
 a {
   color: #0089f3;
