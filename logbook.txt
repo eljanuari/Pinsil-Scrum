@@ -1,0 +1,114 @@
+=======================
+INFORMASI UMUM
+
+Nama kelompok	: Pinsil
+Judul Topik	: Cosplay
+Alamat Github	: https://github.com/eljanuari/Pinsil_Scrum
+Alamat Trello	: https://trello.com/b/chdle4NA/scrum-tkppl
+Anggota 1:
+	Nama	: M. Rizky Januari Hrp
+	NIM	: 121111915
+Anggota 2:
+	Nama	: SUhendry
+	NIM	: 121111656
+Anggota 3:
+	Nama	: Fadhlan Risyad Nasution
+	NIM	: 121111613
+Anggota 4:
+	Nama	: Muhammad Rivaldi
+	NIM	: 121111851
+=======================
+
+
+SPRINT
+------
+Sprint 1: 
+26/5 - 28/5
+Scrummaster: M. Rizky Januari Hrp (121111915)
+
+Sprint 2:
+29/5 - 31/5
+Scrummaster: SUhendry (121111656)
+
+Sprint 3: 
+1/6 - 3/6
+Scrummaster: Fadhlan Risyad Nasution (121111613) 
+
+Sprint 4: 
+4/6 - 6/6
+Scrummaster: Muhammad Rivaldi (121111851)
+
+
+Progress Harian (Diupdate tiap hari)
+
+----------------------------------------------------------------------------------------------
+
+26/5 
+Daily Scrum
+(M. Rizky Januari Hrp):
+1. Semalam saya..
+2. Hari ini saya Mengubah tampilan Section 
+3. Saya tidak ada kendala.
+
+(Suhendry):
+1. Semalam saya..
+2. Hari ini saya Membersihkan Template
+3. Saya tidak ada kendala.
+
+(Fadhlan Risyad Nasution):
+1. Semalam saya..
+2. Hari ini saya Menambahkan Konten pada subjudul
+3. Saya tidak ada kendala.
+
+(Muhammad Rivaldi):
+1. Semalam saya..
+2. Hari ini saya Menambahkan Gambar
+3. Saya tidak ada kendala.
+
+-----------------------------------------------------------------------------------------------
+
+27/5 
+Daily Scrum
+(M. Rizky Januari Hrp):
+1. Semalam saya Mengubah tampilan Section
+2. Hari ini saya Mengubah tampilan Section 
+3. Saya tidak ada kendala.
+
+(Suhendry):
+1. Semalam saya Membersihkan Template
+2. Hari ini saya Mengedit dan menambah isi materi slide & merapikan file.
+3. Saya tidak ada kendala.
+
+(Fadhlan Risyad Nasution):
+1. Semalam saya Menambahkan Konten pada subjudul
+2. Hari ini saya menambah dua paragraf pada subjudul 1
+3. Saya tidak ada kendala.
+
+(Muhammad Rivaldi):
+1. Semalam saya Menambahkan Gambar
+2. Hari ini saya Memindahkan Gambar
+3. Saya tidak ada kendala.
+
+------------------------------------------------------------------------------------------------------
+
+28/5 
+Daily Scrum
+(M. Rizky Januari Hrp):
+1. Semalam saya Mengubah tampilan Section 
+2. Hari ini saya ................... 
+3. Saya tidak ada kendala.
+
+(Suhendry):
+1. Semalam saya Mengedit dan menambah isi materi slide & merapikan file.
+2. Hari ini saya Menambah isi materi
+3. Saya tidak ada kendala.
+
+(Fadhlan Risyad Nasution):
+1. Semalam saya menambah dua paragraf pada subjudul 1
+2.
+3. Saya tidak ada kendala.
+
+(Muhammad Rivaldi):
+1. Semalam saya saya Memindahkan Gambar
+2.
+3. Saya tidak ada kendala.
