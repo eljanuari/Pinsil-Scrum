@@ -3,7 +3,7 @@ INFORMASI UMUM
 
 Nama kelompok	: Pinsil
 Judul Topik	: Cosplay
-Alamat Github	: https://github.com/eljanuari/Pinsil_Scrum
+Alamat Github	: https://github.com/eljanuari/Pinsil-Scrum
 Alamat Trello	: https://trello.com/b/chdle4NA/scrum-tkppl
 Anggota 1:
 	Nama	: M. Rizky Januari Hrp
