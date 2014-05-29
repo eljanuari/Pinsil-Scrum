@@ -9,7 +9,7 @@ Anggota 1:
 	Nama	: M. Rizky Januari Hrp
 	NIM	: 121111915
 Anggota 2:
-	Nama	: SUhendry
+	Nama	: Suhendry
 	NIM	: 121111656
 Anggota 3:
 	Nama	: Fadhlan Risyad Nasution
@@ -95,7 +95,7 @@ Daily Scrum
 Daily Scrum
 (M. Rizky Januari Hrp):
 1. Semalam saya Mengubah tampilan Section 
-2. Hari ini saya ................... 
+2. Hari ini saya Mengubah warna section & huruf
 3. Saya tidak ada kendala.
 
 (Suhendry):
@@ -105,10 +105,34 @@ Daily Scrum
 
 (Fadhlan Risyad Nasution):
 1. Semalam saya menambah dua paragraf pada subjudul 1
-2.
+2. Hari ini saya mengedit konten pembagian cosplay
 3. Saya tidak ada kendala.
 
 (Muhammad Rivaldi):
 1. Semalam saya saya Memindahkan Gambar
-2.
+2. Hari ini saya memasukkan gambar ke semua judul dan subjudul
+3. Saya tidak ada kendala.
+
+------------------------------------------------------------------------------------------------------
+
+29/5 
+Daily Scrum
+(M. Rizky Januari Hrp):
+1. Semalam saya Mengubah warna section & huruf
+2. Hari ini saya mengubah deskripsi presentasi menjadi poin-poin
+3. Saya tidak ada kendala.
+
+(Suhendry):
+1. Semalam saya Menambah Isi materi
+2. Hari ini saya manambah isi materi tentang efek Cosplay dan merapikan tampilan slide pertama(Cover)
+3. Saya tidak ada kendala.
+
+(Fadhlan Risyad Nasution):
+1. Semalam saya Mengedit konten Pembagian Coplay
+2. Hari ini saya menambah sebagian isi slide
+3. Saya tidak ada kendala.
+
+(Muhammad Rivaldi):
+1. Semalam saya Memasukkan gambar ke semua judul dan subjudul
+2. Hari ini saya Memperbaiki kata-kata yang salah
 3. Saya tidak ada kendala.
