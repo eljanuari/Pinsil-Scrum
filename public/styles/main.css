@@ -227,7 +227,7 @@ li.bespoke-bullet-inactive {
 }
 .emphatic,
 .emphatic .bespoke-slide {
-  background: #ac00f3;
+  background: radial-gradient(circle, #555a5f, #1c1e20);
 }
 
 .reveal,
