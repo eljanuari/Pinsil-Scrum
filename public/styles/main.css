@@ -81,14 +81,9 @@ article.bespoke-parent {
   -ms-box-align: center;
   -webkit-align-items: center;
   align-items: center;
-  text-align: center;
-  width: 640px;
-  height: 480px;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  top: 50%;
-  margin-top: -240px;
-  left: 50%;
-  margin-left: -320px;
   background: #eaeaea;
   padding: 40px;
   -webkit-border-radius: 0;
@@ -245,19 +240,19 @@ body {
   color: #09fffc;
 }
 h1 {
-  font-size: 72px;
-  line-height: 82px;
+  font-size: 82px;
+  line-height: 92px;
   letter-spacing: -2px;
   margin-bottom: 16px;
   color: #00000;
 }
 h2 {
-  font-size: 42px;
+  font-size: 52px;
   letter-spacing: -1px;
   margin-bottom: 8px;
 }
 h3 {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: normal;
   margin-bottom: 24px;
   color: #09fffc;
