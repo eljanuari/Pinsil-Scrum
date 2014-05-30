@@ -1,198 +1,266 @@
-@import 'nib' // CSS3 extensions for Stylus: http://visionmedia.github.io/nib/
-
-// variables!
-
-slide_width = 640px
-slide_height = 480px
-slide_background = #eaeaea
-
-slide_transition_length = .6s
-slide_transition_easing = ease
-slide_transition_rotate_y = -90deg
-// Safari bugs out on 3d transform-origins, so we have to fake it
-slide_transition_nudge_x = 100px
-
-bullet_transition_length = .3s
-bullet_transition_easing = ease
-bullet_transition_translate_x = 16px
-
-// base
-
 *
-  box-sizing: border-box
-  margin: 0
-  padding: 0
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  box-sizing border-box
+  margin 0
+  padding 0
 
-@media print
-  *
-    -webkit-print-color-adjust: exact
+@media
+  print
+    * {
+    -webkit-print-color-adjust exact
+    article.bespoke-parent {
+    overflow visible
+    position static
+    .bespoke-slide {
+    zoom 1 !important
+    height 743px
+    width 100%
+    page-break-before always
+    position static
+    margin 0
+    .bespoke-after {
+    -webkit-transform none
+    -moz-transform none
+    -o-transform none
+    -ms-transform none
+    transform none
+    .bespoke-inactive {
+    opacity 1
+    -ms-filter none
+    filter none
+    .bespoke-bullet-inactive {
+    opacity 1
+    -ms-filter none
+    filter none
+    .bespoke-scale-parent {
+    -webkit-transform none !important
+    -moz-transform none !important
+    -o-transform none !important
+    -ms-transform none !important
+    transform none !important
+  only
+    screen
+      and
+        (min-width
+          &:
+            1366px)
+              .bespoke-progress-parent {
+    height 4px
 
-@page
-  size: landscape
-  margin: 0
-
-// bespoke.js layout styles
+}
+  @page
+    width landscape
+    height landscape
+    margin 0
+  .bespoke-slide
+    -webkit-transition -webkit-transform 0.6s ease, opacity 0.6s ease, background 0.6s ease
+    -moz-transition -moz-transform 0.6s ease, opacity 0.6s ease, background 0.6s ease
+    -o-transition -o-transform 0.6s ease, opacity 0.6s ease, background 0.6s ease
+    -ms-transition -ms-transform 0.6s ease, opacity 0.6s ease, background 0.6s ease
+    transition transform 0.6s ease, opacity 0.6s ease, background 0.6s ease
+    -webkit-transform-origin 50% 50% 0
+    -moz-transform-origin 50% 50% 0
+    -o-transform-origin 50% 50% 0
+    -ms-transform-origin 50% 50% 0
+    transform-origin 50% 50% 0
+    -webkit-backface-visibility hidden
+    -moz-backface-visibility hidden
+    -ms-backface-visibility hidden
+    backface-visibility hidden
+    display -webkit-box
+    display -moz-box
+    display -ms-box
+    display -webkit-flex
+    display box
+    display flex
+    -webkit-box-orient vertical
+    -moz-box-orient vertical
+    -o-box-orient vertical
+    -ms-box-orient vertical
+    -webkit-flex-direction column
+    flex-direction column
+    -webkit-box-pack center
+    -moz-box-pack center
+    -o-box-pack center
+    -ms-box-pack center
+    -webkit-justify-content center
+    justify-content center
+    -webkit-box-align center
+    -moz-box-align center
+    -o-box-align center
+    -ms-box-align center
+    -webkit-align-items center
+    align-items center
+    text-align center
+    width 640px
+    height 480px
+    position absolute
+    top 50%
+    margin-top -240px
+    left 50%
+    margin-left -320px
+    background #eaeaea
+    padding 40px
+    -webkit-border-radius 0
+    border-radius 0
+  .bespoke-before
+    -webkit-transform translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px)
+    -moz-transform translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px)
+    -o-transform translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px)
+    -ms-transform translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px)
+    transform translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px)
+  .bespoke-inactive
+    opacity 0
+    -ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    filter alpha(opacity=0)
+    pointer-events none
+  .bespoke-active
+    opacity 1
+    -ms-filter none
+    filter none
+  .bespoke-bullet-active
+    opacity 1
+    -ms-filter none
+    filter none
+  .bespoke-progress-parent
+    position absolute
+    top 0
+    left 0
+    right 0
+    height 2px
+  @media
+    print
+      .bespoke-progress-parent {
+    display none
+  .bespoke-progress-bar
+    -webkit-transition width 0.6s ease
+    -moz-transition width 0.6s ease
+    -o-transition width 0.6s ease
+    -ms-transition width 0.6s ease
+    transition width 0.6s ease
+    position absolute
+    height 100%
+    background #0089f3
+    -webkit-border-radius 0 4px 4px 0
+    border-radius 0 4px 4px 0
 
 article
-  transition: background slide_transition_length slide_transition_easing
-  display: none
+  -webkit-transition background 0.6s ease
+  -moz-transition background 0.6s ease
+  -o-transition background 0.6s ease
+  -ms-transition background 0.6s ease
+  transition background 0.2s ease
+  display none
   &.bespoke-parent
-    display: block
-    position: absolute
-    top: 0
-    bottom: 0
-    left: 0
-    right: 0
-    overflow: hidden
-    @media print
-      overflow: visible
-      position: static
-    perspective: 600px
-
-.bespoke-slide
-  transition:
-    transform slide_transition_length slide_transition_easing,
-    opacity slide_transition_length slide_transition_easing,
-    background slide_transition_length slide_transition_easing
-  transform-origin: 50% 50% 0
-  backface-visibility: hidden
-  display: flex
-  flex-direction: column
-  justify-content: center
-  align-items: center
-  text-align: center
-  width: slide_width
-  height: slide_height
-  position: absolute
-  top: 50%
-  margin-top: (slide_height / 2) * -1
-  left: 50%
-  margin-left: (slide_width / 2) * -1
-  background: slide_background
-  padding: 40px
-  border-radius: 0
-  @media print
-    zoom: 1 !important // disable bespoke-scale
-    height: 743px // seems to correspond with an A4, landscape page height
-    width: 100%
-    page-break-before: always
-    position: static
-    margin: 0
-
-.bespoke-before
-  transform: translateX(slide_transition_nudge_x * -1) translateX(slide_width / -2) rotateY(slide_transition_rotate_y * -1) translateX(slide_width / -2)
+    display block
+    position absolute
+    top 0
+    bottom 0
+    left 0
+    right 0
+    overflow hidden
+    -webkit-perspective 600px
+    -moz-perspective 600px
+    -ms-perspective 600px
+    perspective 600px
 
 .bespoke-after
-  transform: translateX(slide_transition_nudge_x) translateX(slide_width / 2) rotateY(slide_transition_rotate_y) translateX(slide_width / 2)
-  @media print
-    transform: none
-
-.bespoke-inactive
-  opacity: 0
-  pointer-events: none
-  @media print
-    opacity 1
-
-.bespoke-active
-  opacity: 1
-
-// bespoke-bullet styles
+  -webkit-transform translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px)
+  -moz-transform translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px)
+  -o-transform translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px)
+  -ms-transform translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px)
+  transform translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px)
 
 .bespoke-bullet
-  transition: all bullet_transition_length bullet_transition_easing
+  -webkit-transition all 0.3s ease
+  -moz-transition all 0.3s ease
+  -o-transition all 0.3s ease
+  -ms-transition all 0.3s ease
+  transition all 0.3s ease
 
 .bespoke-bullet-inactive
-  opacity: 0
-  li&
-    transform: translateX(bullet_transition_translate_x)
-  @media print
-    opacity: 1
+  opacity 0
+  -ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+  filter alpha(opacity=0)
 
-.bespoke-bullet-active
-  opacity: 1
-
-// bespoke-scale styles
+li
+  margin-bottom 12px
+  text-align left
+  &.bespoke-bullet-inactive
+    -webkit-transform translateX(16px)
+    -moz-transform translateX(16px)
+    -o-transform translateX(16px)
+    -ms-transform translateX(16px)
+    transform translateX(16px)
 
 .bespoke-scale-parent
-  perspective: 600px
-  position: absolute
-  top: 0
-  left: 0
-  right: 0
-  bottom: 0
-  @media print
-    transform: none !important
-
-// bespoke-progress styles
-
-.bespoke-progress-parent
-  position: absolute
-  top: 0
-  left: 0
-  right: 0
-  height: 2px
-  @media only screen and (min-width: 1366px)
-    height: 4px
-  @media print
-    display: none
-
-.bespoke-progress-bar
-  transition: width .6s ease
-  position: absolute
-  height: 100%
-  background: #00f32e
-  border-radius: 0 4px 4px 0
-
-// bespoke-state styles
+  -webkit-perspective 600px
+  -moz-perspective 600px
+  -ms-perspective 600px
+  perspective 600px
+  position absolute
+  top 0
+  left 0
+  right 0
+  bottom 0
 
 .emphatic,
 .emphatic .bespoke-slide
-  background: slide_background
+  background radial-gradient(circle, #555a5f, #1c1e20)
 
-// prism styles
+.reveal,
+.reveal .bespoke-slide
+  background #ac00f3
 
 pre
-  padding: 26px !important
-  border-radius: 8px
-
-// content styles
+  padding 26px !important
+  -webkit-border-radius 8px
+  border-radius 8px
 
 body
-  font-family: helvetica, arial, sans-serif
-  font-size: 18px
-  color: #404040
+  font-family helvetica, arial, sans-serif
+  font-size 18px
+  color #09fffc
 
 h1
-  font-size: 72px
-  line-height: 82px
-  letter-spacing: -2px
-  margin-bottom: 16px
+  font-size 72px
+  line-height 82px
+  letter-spacing -2px
+  margin-bottom 16px
+  color #00000
 
 h2
-  font-size: 42px
-  letter-spacing: -1px
-  margin-bottom: 8px
+  font-size 42px
+  letter-spacing -1px
+  margin-bottom 8px
 
 h3
-  font-size: 24px
-  font-weight: normal
-  margin-bottom: 24px
-  color: #606060
+  font-size 24px
+  font-weight normal
+  margin-bottom 24px
+  color #09fffc
 
 hr
-  visibility: hidden
-  height: 20px
+  visibility hidden
+  height 20px
 
 ul
-  list-style: none
-
-li
-  margin-bottom: 12px
+  list-style none
 
 p
-  margin: 0 100px 12px
-  line-height: 22px
+  margin 0 100px 12px
+  line-height 22px
+  color #00000
 
 a
-  color: #0089f3
-  text-decoration: none
+  color #0089f3
+  text-decoration none
+
+#cover
+  height 320px
+  width 960px
+
+#lii
+  text-align center
+
