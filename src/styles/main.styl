@@ -58,7 +58,7 @@
     -moz-transition -moz-transform 0.6s ease, opacity 0.6s ease, background 0.6s ease
     -o-transition -o-transform 0.6s ease, opacity 0.6s ease, background 0.6s ease
     -ms-transition -ms-transform 0.6s ease, opacity 0.6s ease, background 0.6s ease
-    transition transform 0.6s ease, opacity 0.6s ease, background 0.6s ease
+    transition transform 0.1s ease, opacity 0.1s ease, background 0.1s ease
     -webkit-transform-origin 50% 50% 0
     -moz-transform-origin 50% 50% 0
     -o-transform-origin 50% 50% 0
@@ -92,24 +92,18 @@
     -ms-box-align center
     -webkit-align-items center
     align-items center
-    text-align center
-    width 640px
-    height 480px
+    width 100%
+    height 100%
     position absolute
-    top 50%
-    margin-top -240px
-    left 50%
-    margin-left -320px
-    background #eaeaea
     padding 40px
     -webkit-border-radius 0
     border-radius 0
   .bespoke-before
-    -webkit-transform translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px)
-    -moz-transform translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px)
+    -webkit-transform translateX(300px) translateX(-320px) rotateY(-10deg) translateX(-320px)
+    -moz-transform translateX(100px) translateX(-320px) rotateY(-10deg) translateX(-320px)
     -o-transform translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px)
-    -ms-transform translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px)
-    transform translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px)
+    -ms-transform translateX(100px) translateX(a-320px) rotateY(-90deg) translateX(-320px)
+    transform translateX(100px) translateX(-320px) rotateY(-290deg) translateX(-320px)
   .bespoke-inactive
     opacity 0
     -ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
@@ -166,11 +160,11 @@ article
     perspective 600px
 
 .bespoke-after
-  -webkit-transform translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px)
-  -moz-transform translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px)
+  -webkit-transform translateX(-300px) translateX(320px) rotateY(10deg) translateX(320px)
+  -moz-transform translateX(-100px) translateX(320px) rotateY(10deg) translateX(320px)
   -o-transform translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px)
   -ms-transform translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px)
-  transform translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px)
+  transform translateX(-100px) translateX(320px) rotateY(290deg) translateX(320px)
 
 .bespoke-bullet
   -webkit-transition all 0.3s ease
@@ -188,11 +182,11 @@ li
   margin-bottom 12px
   text-align left
   &.bespoke-bullet-inactive
-    -webkit-transform translateX(16px)
-    -moz-transform translateX(16px)
-    -o-transform translateX(16px)
-    -ms-transform translateX(16px)
-    transform translateX(16px)
+    -webkit-transform translateX(50px)
+    -moz-transform translateX(50px)
+    -o-transform translateX(50px)
+    -ms-transform translateX(50px)
+    transform translateX(50px)
 
 .bespoke-scale-parent
   -webkit-perspective 600px
@@ -207,11 +201,10 @@ li
 
 .emphatic,
 .emphatic .bespoke-slide
-  background radial-gradient(circle, #555a5f, #1c1e20)
+  background radial-gradient(circle, #055a55, #051e20)
 
 .reveal,
 .reveal .bespoke-slide
-  background #ac00f3
 
 pre
   padding 26px !important
@@ -219,24 +212,24 @@ pre
   border-radius 8px
 
 body
-  font-family helvetica, arial, sans-serif
-  font-size 18px
+  font-family Comic Sans MS, arial, sans-serif
+  font-size 28px
   color #09fffc
 
 h1
-  font-size 72px
-  line-height 82px
+  font-size 82px
+  line-height 92px
   letter-spacing -2px
   margin-bottom 16px
   color #00000
 
 h2
-  font-size 42px
+  font-size 52px
   letter-spacing -1px
   margin-bottom 8px
 
 h3
-  font-size 24px
+  font-size 44px
   font-weight normal
   margin-bottom 24px
   color #09fffc
