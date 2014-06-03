@@ -31,11 +31,11 @@ Sprint 2:
 Scrummaster: Suhendry (121111656)
 
 Sprint 3: 
-1/6 - 3/6
+2/6 - 4/6
 Scrummaster: Fadhlan Risyad Nasution (121111613) 
 
 Sprint 4: 
-4/6 - 6/6
+5/6 - 7/6
 Scrummaster: Muhammad Rivaldi (121111851)
 
 
@@ -47,22 +47,22 @@ Progress Harian (Diupdate tiap hari)
 Daily Scrum
 (M. Rizky Januari Hrp):
 1. Semalam saya..
-2. Hari ini saya Mengubah tampilan Section 
+2. Hari ini saya mengubah tampilan Section 
 3. Saya tidak ada kendala.
 
 (Suhendry):
 1. Semalam saya..
-2. Hari ini saya Membersihkan Template
+2. Hari ini saya membersihkan Template
 3. Saya tidak ada kendala.
 
 (Fadhlan Risyad Nasution):
 1. Semalam saya..
-2. Hari ini saya Menambahkan Konten pada subjudul
+2. Hari ini saya menambahkan Konten pada subjudul
 3. Saya tidak ada kendala.
 
 (Muhammad Rivaldi):
 1. Semalam saya..
-2. Hari ini saya Menambahkan Gambar
+2. Hari ini saya menambahkan Gambar
 3. Saya tidak ada kendala.
 
 -----------------------------------------------------------------------------------------------
@@ -70,23 +70,23 @@ Daily Scrum
 27/5 
 Daily Scrum
 (M. Rizky Januari Hrp):
-1. Semalam saya Mengubah tampilan Section
-2. Hari ini saya Mengubah tampilan Section 
+1. Semalam saya mengubah tampilan Section
+2. Hari ini saya mengubah tampilan Section 
 3. Saya tidak ada kendala.
 
 (Suhendry):
-1. Semalam saya Membersihkan Template
-2. Hari ini saya Mengedit dan menambah isi materi slide & merapikan file.
+1. Semalam saya membersihkan Template
+2. Hari ini saya mengedit dan menambah isi materi slide & merapikan file.
 3. Saya tidak ada kendala.
 
 (Fadhlan Risyad Nasution):
-1. Semalam saya Menambahkan Konten pada subjudul
+1. Semalam saya menambahkan Konten pada subjudul
 2. Hari ini saya menambah dua paragraf pada subjudul 1
 3. Saya tidak ada kendala.
 
 (Muhammad Rivaldi):
-1. Semalam saya Menambahkan Gambar
-2. Hari ini saya Memindahkan Gambar
+1. Semalam saya menambahkan Gambar
+2. Hari ini saya memindahkan Gambar
 3. Saya tidak ada kendala.
 
 ------------------------------------------------------------------------------------------------------
@@ -94,13 +94,13 @@ Daily Scrum
 28/5 
 Daily Scrum
 (M. Rizky Januari Hrp):
-1. Semalam saya Mengubah tampilan Section 
-2. Hari ini saya Mengubah warna section & huruf
+1. Semalam saya mengubah tampilan Section 
+2. Hari ini saya mengubah warna section & huruf
 3. Saya tidak ada kendala.
 
 (Suhendry):
-1. Semalam saya Mengedit dan menambah isi materi slide & merapikan file.
-2. Hari ini saya Menambah isi materi
+1. Semalam saya mengedit dan menambah isi materi slide & merapikan file.
+2. Hari ini saya menambah isi materi
 3. Saya tidak ada kendala.
 
 (Fadhlan Risyad Nasution):
@@ -109,7 +109,7 @@ Daily Scrum
 3. Saya tidak ada kendala.
 
 (Muhammad Rivaldi):
-1. Semalam saya saya Memindahkan Gambar
+1. Semalam saya memindahkan Gambar
 2. Hari ini saya memasukkan gambar ke semua judul dan subjudul
 3. Saya tidak ada kendala.
 
@@ -118,23 +118,23 @@ Daily Scrum
 29/5 
 Daily Scrum
 (M. Rizky Januari Hrp):
-1. Semalam saya Mengubah warna section & huruf
+1. Semalam saya mengubah warna section & huruf
 2. Hari ini saya mengubah deskripsi presentasi menjadi poin-poin
 3. Saya tidak ada kendala.
 
 (Suhendry):
-1. Semalam saya Menambah Isi materi
-2. Hari ini saya manambah isi materi tentang efek Cosplay dan merapikan tampilan slide pertama(Cover)
+1. Semalam saya menambah Isi materi
+2. Hari ini saya menambah isi materi tentang efek Cosplay dan merapikan tampilan slide pertama(Cover)
 3. Saya tidak ada kendala.
 
 (Fadhlan Risyad Nasution):
-1. Semalam saya Mengedit konten Pembagian Coplay
+1. Semalam saya mengedit konten pembagian Coplay
 2. Hari ini saya menambah sebagian isi slide
 3. Saya tidak ada kendala.
 
 (Muhammad Rivaldi):
-1. Semalam saya Memasukkan gambar ke semua judul dan subjudul
-2. Hari ini saya Memperbaiki kata-kata yang salah
+1. Semalam saya memasukkan gambar ke semua judul dan subjudul
+2. Hari ini saya memperbaiki kata-kata yang salah
 3. Saya tidak ada kendala.
 
 ------------------------------------------------------------------------------------------------------
@@ -143,7 +143,7 @@ Daily Scrum
 Daily Scrum
 (M. Rizky Januari Hrp):
 1. Semalam saya mengubah deskripsi presentasi menjadi poin-poin
-2. Hari ini saya Merubah Warna background
+2. Hari ini saya merubah warna background
 3. Saya tidak ada kendala.
 
 (Suhendry):
@@ -157,8 +157,8 @@ Daily Scrum
 3. Saya tidak ada kendala.
 
 (Muhammad Rivaldi):
-1. Semalam saya Memperbaiki kata-kata yang salah
-2. Hari ini saya Menghapus sebagian teks dalam slide
+1. Semalam saya memperbaiki kata-kata yang salah
+2. Hari ini saya menghapus sebagian teks dalam slide
 3. Saya tidak ada kendala.
 
 ------------------------------------------------------------------------------------------------------
@@ -166,8 +166,8 @@ Daily Scrum
 31/5 
 Daily Scrum
 (M. Rizky Januari Hrp):
-1. Semalam saya Merubah Warna background
-2. Hari ini saya Mengedit huruf dan transitionnya.
+1. Semalam saya merubah warna background
+2. Hari ini saya mengedit huruf dan transitionnya.
 3. Saya tidak ada kendala.
 
 (Suhendry):
@@ -181,7 +181,31 @@ Daily Scrum
 3. Saya tidak ada kendala.
 
 (Muhammad Rivaldi):
-1. Semalam saya Menghapus sebagian teks dalam slide
-2. Hari ini saya Menambahkan beberapa point-point
+1. Semalam saya menghapus sebagian teks dalam slide
+2. Hari ini saya menambahkan beberapa point
 3. Saya tidak ada kendala.
 
+
+------------------------------------------------------------------------------------------------------
+
+2/6
+Daily Scrum
+(M. Rizky Januari Hrp):
+1. Semalam saya mengedit huruf dan transitionnya
+2. hari ini saya memasukkan gambar ke presentasi
+3. saya tidak ada kendala
+
+(Suhendry):
+1. Semalam saya melakukan perbaikan isi materi
+2. Hari ini saya menambah gambar untuk slide
+3. Saya tidak ada kendala.
+
+(Fadhlan Risyad Nasution):
+1. Semalam saya melakukan perbaikan isi tampilan slide
+2. Hari ini saya penyesuaian tampilan jade dengan tampilan html
+3. Saya tidak ada kendala.
+
+(Muhammad Rivaldi):
+1. Semalam saya menambahkan beberapa point
+2. Hari ini saya mengedit gambar pada html
+3. Saya tidak ada kendala.
