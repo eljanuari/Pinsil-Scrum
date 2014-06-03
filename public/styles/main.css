@@ -291,8 +291,13 @@ a {
   text-decoration: none;
 }
 
+.def{
+	font-size: 26px; 
+}
 
-
+#sm{
+	font-size: 24px;
+}
 
 #cover{
     height: 320px;
