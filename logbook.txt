@@ -191,21 +191,45 @@ Daily Scrum
 2/6
 Daily Scrum
 (M. Rizky Januari Hrp):
-1. Semalam saya mengedit huruf dan transitionnya
+1. -
 2. hari ini saya memasukkan gambar ke presentasi
 3. saya tidak ada kendala
 
 (Suhendry):
-1. Semalam saya melakukan perbaikan isi materi
+1. -
 2. Hari ini saya menambah gambar untuk slide
 3. Saya tidak ada kendala.
 
 (Fadhlan Risyad Nasution):
-1. Semalam saya melakukan perbaikan isi tampilan slide
-2. Hari ini saya penyesuaian tampilan jade dengan tampilan html
+1. -
+2. Hari ini saya menyesuaikan tampilan jade dengan tampilan html
 3. Saya tidak ada kendala.
 
 (Muhammad Rivaldi):
-1. Semalam saya menambahkan beberapa point
+1. -
 2. Hari ini saya mengedit gambar pada html
+3. Saya tidak ada kendala.
+
+------------------------------------------------------------------------------------------------------
+
+3/6
+Daily Scrum
+(M. Rizky Januari Hrp):
+1. Semalam saya memasukkan gambar ke presentasi
+2. hari ini saya mengubah slide theme
+3. saya tidak ada kendala
+
+(Suhendry):
+1. Semalam saya merapikan slide dan tata letak teks
+2. Hari ini saya menambah gambar untuk slide
+3. Saya tidak ada kendala.
+
+(Fadhlan Risyad Nasution):
+1. Semalam saya menyesuaikan tampilan jade dengan tampilan html
+2. Hari ini saya memperbaiki ukuran teks dan tampilan slide
+3. Saya tidak ada kendala.
+
+(Muhammad Rivaldi):
+1. Semalam saya mengedit gambar pada html
+2. Hari ini saya menambah point dalam subjudul
 3. Saya tidak ada kendala.
