@@ -260,11 +260,11 @@ hr {
   height: 20px;
 }
 ul {
-  list-style: none;
+  list-style:none;
 }
 li {
   margin-bottom: 12px;
-  text-align: left;
+  text-align: center;
 }
 p {
   margin: 0 100px 12px;
@@ -286,5 +286,6 @@ a {
 
 #lii
 {
-text-align: center;
+text-align: left;
 }
+
