@@ -302,6 +302,8 @@ a {
 #cover{
     height: 320px;
     width: 960px;
+    border-radius: 20px;
+    border-style: groove;
 }
 
 #lii
