@@ -257,3 +257,28 @@ Daily Scrum
 1. Semalam saya menambah point dalam subjudul
 2. Hari ini saya menginput beberapa gambar untuk slide
 3. Saya tidak ada kendala.
+
+
+------------------------------------------------------------------------------------------------------
+
+5/6
+Daily Scrum
+(M. Rizky Januari Hrp):
+1. saya mengganti background theme
+2. Hari ini 
+3. Saya tidak ada kendala
+
+(Suhendry):
+1. Semalam saya edit gambar cover serta penambahan border pada cover
+2. Hari ini saya memasukkan gambar
+3. Saya tidak ada kendala.
+
+(Fadhlan Risyad Nasution):
+1. Semalam saya menggabungkan beberapa commit yang conflict dan penambahan slide baru
+2. Hari ini saya mengedit jade
+3. Saya tidak ada kendala.
+
+(Muhammad Rivaldi):
+1. Semalam saya menginput beberapa gambar untuk slide
+2. Hari ini saya menginput gambar untuk beberapa sub judul lainnya
+3. Saya tidak ada kendala.
