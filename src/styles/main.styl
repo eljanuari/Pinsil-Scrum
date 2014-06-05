@@ -102,7 +102,7 @@
     -webkit-transform translateX(300px) translateX(-320px) rotateY(-10deg) translateX(-320px)
     -moz-transform translateX(100px) translateX(-320px) rotateY(-10deg) translateX(-320px)
     -o-transform translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px)
-    -ms-transform translateX(100px) translateX(a-320px) rotateY(-90deg) translateX(-320px)
+    -ms-transform translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px)
     transform translateX(100px) translateX(-320px) rotateY(-290deg) translateX(-320px)
   .bespoke-inactive
     opacity 0
@@ -180,7 +180,7 @@ article
 
 li
   margin-bottom 12px
-  text-align left
+  text-align center
   &.bespoke-bullet-inactive
     -webkit-transform translateX(50px)
     -moz-transform translateX(50px)
@@ -201,10 +201,24 @@ li
 
 .emphatic,
 .emphatic .bespoke-slide
-  background radial-gradient(circle, #055a55, #051e20)
+  <!-- background radial-gradient(circle, #055a55, #051e20)
+  -->
+	background #add9e4
+  background -moz-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%)
+  background -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f7fbfc), color-stop(100%, #add9e4))
+  background -webkit-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%)
+  background -o-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%)
+  background -ms-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%)
+  background radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%)
+  background-color #f7fbfc
 
 .reveal,
 .reveal .bespoke-slide
+  font-family "Open Sans", sans-serif
+  font-size 36px
+  font-weight normal
+  letter-spacing -0.02em
+  color #333333
 
 pre
   padding 26px !important
@@ -212,9 +226,11 @@ pre
   border-radius 8px
 
 body
-  font-family Comic Sans MS, arial, sans-serif
+  font-family "Open Sans", sans-serif
   font-size 28px
-  color #09fffc
+  font-weight normal
+  letter-spacing -0.02em
+  color #333333
 
 h1
   font-size 82px
@@ -232,7 +248,6 @@ h3
   font-size 44px
   font-weight normal
   margin-bottom 24px
-  color #09fffc
 
 hr
   visibility hidden
@@ -250,10 +265,18 @@ a
   color #0089f3
   text-decoration none
 
+.def
+  font-size 26px
+
+#sm
+  font-size 24px
+
 #cover
   height 320px
   width 960px
+  border-radius 20px
+  border-style groove
 
 #lii
-  text-align center
+  text-align left
 
