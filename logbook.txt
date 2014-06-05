@@ -216,8 +216,8 @@ Daily Scrum
 Daily Scrum
 (M. Rizky Januari Hrp):
 1. Semalam saya memasukkan gambar ke presentasi
-2. hari ini saya mengubah slide theme
-3. saya tidak ada kendala
+2. Hari ini saya mengubah slide theme
+3. Saya tidak ada kendala
 
 (Suhendry):
 1. Semalam saya menambah gambar untuk slide
@@ -232,4 +232,28 @@ Daily Scrum
 (Muhammad Rivaldi):
 1. Semalam saya mengedit gambar pada html
 2. Hari ini saya menambah point dalam subjudul
+3. Saya tidak ada kendala.
+
+------------------------------------------------------------------------------------------------------
+
+4/6
+Daily Scrum
+(M. Rizky Januari Hrp):
+1. Semalam saya mengubah slide theme
+2. Hari ini saya mengganti background theme
+3. Saya tidak ada kendala
+
+(Suhendry):
+1. Semalam saya merapikan slide dan tata letak teks
+2. Hari ini saya edit gambar cover serta penambahan border pada cover
+3. Saya tidak ada kendala.
+
+(Fadhlan Risyad Nasution):
+1. Semalam saya memperbaiki ukuran teks dan tampilan slide
+2. Hari ini saya menggabungkan beberapa commit yang conflict dan penambahan slide baru
+3. Saya tidak ada kendala.
+
+(Muhammad Rivaldi):
+1. Semalam saya menambah point dalam subjudul
+2. Hari ini saya menginput beberapa gambar untuk slide
 3. Saya tidak ada kendala.
