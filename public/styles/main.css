@@ -143,19 +143,25 @@ article.bespoke-parent {
 }
 
 .bespoke-before {
-  -webkit-transform: translateX(300px) translateX(-320px) rotateY(-10deg) translateX(-320px);
-  -moz-transform: translateX(100px) translateX(-320px) rotateY(-10deg) translateX(-320px);
-  -o-transform: translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px);
-  -ms-transform: translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px);
-  transform: translateX(100px) translateX(-320px) rotateY(-290deg) translateX(-320px);
+  	opacity: 0;
+	visibility: hidden;
+
+	-webkit-transform: scale(16);
+	   -moz-transform: scale(16);
+	    -ms-transform: scale(16);
+	     -o-transform: scale(16);
+	        transform: scale(16);
 }
 
 .bespoke-after {
-  -webkit-transform: translateX(-300px) translateX(320px) rotateY(10deg) translateX(320px);
-  -moz-transform: translateX(-100px) translateX(320px) rotateY(10deg) translateX(320px);
-  -o-transform: translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px);
-  -ms-transform: translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px);
-  transform: translateX(-100px) translateX(320px) rotateY(290deg) translateX(320px);
+  opacity: 0;
+	visibility: hidden;
+
+	-webkit-transform: scale(2.2);
+	   -moz-transform: scale(2.2);
+	    -ms-transform: scale(2.2);
+	     -o-transform: scale(2.2);
+	        transform: scale(2.2);
 }
 
 .bespoke-inactive {
@@ -163,6 +169,7 @@ article.bespoke-parent {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   pointer-events: none;
+  
 }
 
 .bespoke-active {
