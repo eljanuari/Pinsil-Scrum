@@ -324,10 +324,10 @@ Daily Scrum
 
 (Fadhlan Risyad Nasution):
 1. Semalam saya mempersiapkan file untuk presentasi
-2. Hari ini saya update jade
+2. Hari ini saya menyesuaikan jade berdasarkan html
 3. Saya tidak ada kendala.
 
 (Muhammad Rivaldi):
 1. Semalam saya enambahkan section baru
-2. Hari ini saya m
+2. Hari ini saya menambahkan gambar
 3. Saya tidak ada kendala.
